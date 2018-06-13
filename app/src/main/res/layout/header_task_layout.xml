@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/task_bg">
+
+    <com.gxtc.commlibrary.widget.CircleImageView
+        android:id="@+id/iv_info_pic"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_large"
+        android:scaleType="centerCrop"
+        android:src="@drawable/error_image" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_info_pic"
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_toRightOf="@+id/iv_info_pic"
+        android:text="东方破"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize_m" />
+
+    <TextView
+        android:id="@+id/vip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/iv_info_pic"
+        android:text="vip:开通vip"
+        android:textColor="@color/text_color_9b9a9a"
+        android:textSize="@dimen/textSize_m" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="@dimen/margin_10"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tickect_count"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="@color/text_color_ff8010"
+                android:textSize="@dimen/textSize_m" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="优惠券"
+                android:textColor="@color/text_color_9b9a9a" />
+        </LinearLayout>
+
+        <View style="@style/vertical_item_line" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/vip_count"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="@color/text_color_ff8010"
+                android:textSize="@dimen/textSize_m" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="总获得vip天数"
+                android:textColor="@color/text_color_9b9a9a" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

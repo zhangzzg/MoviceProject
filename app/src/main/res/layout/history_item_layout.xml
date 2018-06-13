@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_whilte_selector"
+    xmlns:tools="http://schemas.android.com/tools">
+
+   <TextView
+       android:id="@+id/name"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:padding="@dimen/margin_10"
+       android:drawablePadding="@dimen/margin_10"
+       android:drawableLeft="@drawable/history_icone"
+       android:textColor="@color/text_color_333"
+       android:textSize="@dimen/textSize_m"
+       tools:text="天行者"/>
+
+   <ImageView
+       android:id="@+id/close"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:layout_centerVertical="true"
+       android:layout_marginRight="@dimen/margin_10"
+       android:padding="@dimen/margin_10"
+       android:src="@drawable/close"/>
+
+   <View
+       android:id="@+id/line"
+       android:layout_alignParentBottom="true"
+       style="@style/item_line"/>
+</RelativeLayout>

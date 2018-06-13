@@ -1,0 +1,108 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+
+    <!--分割线-->
+    <style name="item_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/divide_line</item>
+    </style>
+
+    <style name="vertical_item_line">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/divide_line</item>
+    </style>
+
+    <style name="black_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">4px</item>
+        <item name="android:background">@color/text_color_333333</item>
+    </style>
+
+    <style name="black_line_light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2px</item>
+        <item name="android:background">@color/text_color_333333</item>
+    </style>
+
+    <!--分割线-->
+    <style name="item_line_mode">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">@dimen/margin_10</item>
+    <item name="android:background">@color/module_divide_line</item>
+    </style>
+
+    <style name="mine_tab">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:gravity">center</item>
+    <item name="android:drawablePadding">@dimen/margin_tiny</item>
+    <item name="android:paddingBottom">@dimen/margin_10</item>
+    <item name="android:paddingTop">@dimen/margin_10</item>
+    <item name="android:background">?android:selectableItemBackground</item>
+    <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="mine_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">@dimen/margin_10</item>
+        <item name="android:paddingTop">@dimen/margin_10</item>
+        <item name="android:paddingBottom">@dimen/margin_10</item>
+        <item name="android:drawablePadding">@dimen/margin_10</item>
+        <item name="android:drawableRight">@drawable/more</item>
+        <item name="android:background">@drawable/btn_whilte_selector</item>
+    </style>
+
+    <style name="clear_cache">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">@dimen/margin_10</item>
+        <item name="android:paddingTop">@dimen/margin_10</item>
+        <item name="android:paddingBottom">@dimen/margin_10</item>
+        <item name="android:drawablePadding">@dimen/margin_10</item>
+        <item name="android:background">@drawable/btn_whilte_selector</item>
+    </style>
+
+    <!-- 防止欢迎页白屏或者黑屏，设置图片 -->
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/launch_bg</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--底部对话框样式-->
+    <style name="BottomDialog" parent="@style/Base.V7.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- 默认的Dialog的style -->
+    <style name="common_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!--TextView样式-->
+    <style name="TextViewWrapStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+<!--============-->
+</resources>

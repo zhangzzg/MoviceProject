@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4c59a0 </color>
+    <color name="colorPrimaryDark">#d51f67</color>
+    <color name="colorAccent">#d51f67</color>
+
+    <!--主题色-->
+    <color name="main">#9878d7</color>
+    <color name="view">#f2f2f2</color>
+    <color name="bg">#F3F3F3</color>
+
+    <!-- 基础颜色 -->
+    <color name="black">#000000</color>
+    <color name="black_88">#88000000</color>
+    <color name="white">#ffffff</color>
+    <color name="colorPrimary_04">#045CF4</color>
+    <color name="red_82p">#F55249</color>
+    <color name="red_85p">#F88A7D</color>
+    <color name="orange">#ff8e07</color>
+    <color name="orange_dark">#ff6c00</color>
+    <color name="text_color_b9963a">#b9963a</color>
+    <color name="text_color_d35900">#d35900</color>
+    <color name="text_color_e96d6d">#e96d6d</color>
+    <color name="text_color_d8d8d8">#B8B8B8</color>
+    <color name="text_color_ff8010">#ff8010</color>
+    <color name="text_color_9b9a9a">#9b9a9a</color>
+
+    <!--标题、书名、分类、个人中心列表、用户名-->
+    <color name="text_color_black_1">#121212</color>
+    <!--书籍介绍、更多、展开、书币余额、福利中心、小说分类、个人信息-->
+    <color name="text_color_black_2">#868686</color>
+    <!--提示、清除缓存、我的消息已读、登录提示-->
+    <color name="text_color_black_3">#c5c5c5</color>
+    <!--用于充值、书币-->
+    <color name="text_color_yellow">#ff8a00</color>
+
+    <!--阅读界面-->
+    <color name="reader_default_bg_toolbar">#CC000000</color>
+    <color name="reader_default_bg_yellow">#CFBEB6</color>
+    <color name="reader_default_bg_black">#090C13</color>
+    <color name="reader_default_text_light">#32414E</color>
+    <color name="reader_default_text_dark">#444444</color>
+    <color name="read_background">#FAF9DE</color>
+    <color name="read_zhangjie_background">#F8F8F8</color>
+    <color name="read_chatper_textcolor">#56c56d</color>
+    <color name="read_chatper_textcolor_2">#9f9f9f</color>
+    <color name="read_background_paperYellow">#D4C5A3</color>
+    <color name="read_textColor">#3B3A38</color>
+    <color name="read_dialog_bg">#2C2C2C</color>
+    <color name="read_dialog_button_select">#E25754</color>
+    <color name="read_bg_default">#CEC29C</color>
+    <color name="read_bg_1">#CCEBCC</color>
+    <color name="read_bg_2">#37342F</color>
+    <color name="read_bg_3">#D1CEC5</color>
+    <color name="read_bg_4">#001C27</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_half">#20000000</color>
+    <color name="read_font_default">#2C2C2C</color>
+    <color name="read_font_1">#2F332D</color>
+    <color name="read_font_2">#92918C</color>
+    <color name="read_font_3">#383429</color>
+    <color name="read_font_4">#627176</color>
+    <color name="lineColor">#60d3d3d3</color>
+    <!-- UI Color -->
+    <color name="myPrimaryColor">#4284F5</color>
+    <color name="myPrimaryDarkColor">#3870d0</color>
+    <color name="myAccentColor">#fe5151</color>
+    <color name="myDrawerBackground">#F2F2F2</color>
+    <color name="myWindowBackground">#F5F5F5</color>
+    <color name="myTextPrimaryColor">#FFFFFF</color>
+    <color name="mySearchToggleColor">#7F7F7F</color>
+
+    <color name="background_tab_pressed">#dddddd</color>
+    <!--主色调-->
+    <color name="btn_nornal">#2b8cff</color>
+    <color name="pts_color">#44B1E8</color>
+    <!--浅灰 用于标签栏、不重要的辅助内容-->
+    <color name="text_color_999">#999</color>
+    <!--中灰 用于文章详情、大段内容-->
+    <color name="text_color_666">#666</color>
+    <!--深灰 用于标题、列表、主要内容-->
+    <color name="text_color_333">#333</color>
+
+    <!-- Navigation Color is 30% black mask attack to primary color -->
+    <color name="myNavigationColor">#2E5CAB</color>
+    <color name="myNavigationColorWhite">#B2B2B2</color>
+    <color name="text_color_red">#f41e16</color>
+    <!--阅读弹窗颜色-->
+    <color name="color_read_dialog">#EFEFEF</color>
+    <!--写评论字体颜色-->
+    <color name="write_comment">#fe650d</color>
+
+    <!--我的-->
+    <color name="mine_bg">#F1FCFE</color>
+    <color name="my_oroder_sub">#ABABAB</color>
+    <color name="color_d9d9d9">#d9d9d9</color>
+    <color name="color_9878d7">#9878d7</color>
+    <color name="color_dbc9ff">#dbc9ff</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_7ecef4">#7ecef4</color>
+    <color name="color_47abef">#47abef</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="article_resolve_background">#ECF0F3</color>
+    <color name="color_66000000">#66000000</color>  <!--40% 的黑色-->
+    <color name="color_4d2167bf">#4d2167bf</color>
+    <color name="color_f3f3f3">#f3f3f3</color>
+    <color name="color_e05050">#e05050</color>
+    <color name="color_e23f3f">#e23f3f</color>
+    <color name="color_2b8cff">#2b8cff</color>
+    <color name="color_ededed">#ededed</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_ddf1fc">#ddf1fc</color>
+    <color name="color_fa4717">#fa4717</color>
+    <color name="color_FFDCA8">#FFDCA8</color>
+    <color name="color_ff7531">#ff7531</color>
+</resources>
+
+

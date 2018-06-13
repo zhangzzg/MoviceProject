@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4c59a0</color>
+    <color name="colorPrimaryDark">#d51f67</color>
+    <color name="colorAccent">#d51f67</color>
+
+    <color name="actionbar_text_color">#333333</color>
+    <color name="text_color_333333">#333333</color>
+    <color name="text_color_666">#666666</color>
+    <color name="text_color_9696">#969696</color>
+    <color name="text_color_8da2c1">#8da2c1</color>
+    <color name="pts_color">#44B1E8</color>
+    <color name="C62F2F">#C62F2F</color>
+    <!--公共-->
+    <color name="white">#fff</color>
+    <color name="common_background">#F7F8F9</color>
+    <color name="divide_line">#dddddd</color>
+    <color name="grey1">#999999</color>
+    <color name="color_c1c1c1">#c1c1c1</color>
+    <color name="black1">#4D4D4D</color>
+    <color name="black">#000</color>
+
+    <!--1px分割线颜色-->
+    <color name="grey_e5e5">#e5e5e5</color>
+
+    <!--模块分割线-->
+    <!--<color name="module_divide_line">#ECEDEE</color>-->
+    <color name="module_divide_line">#f2f2f2</color>
+
+    <!--灰色小标题颜色-->
+    <color name="sub_title_color">#5F6667</color>
+    <!--按下的颜色-->
+    <color name="touch_press_color">#D9D9D9</color>
+
+
+    <!--下拉刷新颜色-->
+    <color name="refresh_color1">#ff33b5e5</color>
+    <color name="refresh_color2">#ff0099cc</color>
+    <color name="refresh_color3">#ff99cc00</color>
+    <color name="refresh_color4">#ff669900</color>
+
+
+    <!--按钮的颜色-->
+    <color name="btn_press">#1D6182</color>
+    <color name="btn_normal">#148cc8</color>
+
+    <color name="cardShadowColor_1">#0a8c8c8c</color>
+    <color name="cardShadowColor_2">#0f898989</color>
+    <color name="cardShadowColor_3">#14898989</color>
+    <color name="cardShadowColor_4">#19898989</color>
+    <color name="cardShadowColor_5">#1e898989</color>
+    <color name="cardShadowColor_6">#23898989</color>
+    <color name="cardShadowColor_7">#28898989</color>
+    <color name="cardShadowColor_8">#2d898989</color>
+</resources>

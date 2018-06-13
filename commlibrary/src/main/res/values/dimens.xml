@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- margin sise -->
+    <dimen name="dp_0">0dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_tiny_4">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_small_8">8dp</dimen>
+
+    <dimen name="margin_10">10dp</dimen>
+
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_medium_16">16dp</dimen>
+    <dimen name="margin_middle">12dp</dimen>
+    <dimen name="margin_middle_12">12dp</dimen>
+    <dimen name="cardPadding">2px</dimen>
+
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_large_32">32dp</dimen>
+    <dimen name="margin_larger_50">50dp</dimen>
+    <dimen name="margin_huge_64">64dp</dimen>
+    <dimen name="margin_big_80">80dp</dimen>
+    <dimen name="margin_big_90">90dp</dimen>
+    <dimen name="margin_big_100">100dp</dimen>
+
+
+    <dimen name="textSize_xs">10sp</dimen>
+    <dimen name="textSize_xs_10">10sp</dimen>
+    <dimen name="textSize_s">12sp</dimen>
+    <dimen name="textSize_s_12">12sp</dimen>
+    <dimen name="textSize_m">14sp</dimen>
+    <dimen name="textSize_m_14">14sp</dimen>
+    <dimen name="textSize_ml">15sp</dimen>
+    <dimen name="textSize_ml_15">15sp</dimen>
+    <dimen name="textSize_l">16sp</dimen>
+    <dimen name="textSize_l_16">16sp</dimen>
+    <dimen name="textSize_xl">18sp</dimen>
+    <dimen name="textSize_xl_18">18sp</dimen>
+    <dimen name="textSize_xxl">22sp</dimen>
+    <dimen name="textSize_xxl_22">22sp</dimen>
+    <dimen name="textSize_xxxl">24sp</dimen>
+    <dimen name="textSize_xxxl_24">24sp</dimen>
+    <dimen name="textSize_xxxxl">26sp</dimen>
+    <dimen name="textSize_xxxxl_26">26sp</dimen>
+    <dimen name="textSize_xxxxxxxxxl">52sp</dimen>
+    <dimen name="textSize_xxxxxxxxxl_52">52sp</dimen>
+
+    <!--圆角-->
+    <dimen name="radiu_size">2dp</dimen>
+
+
+</resources>

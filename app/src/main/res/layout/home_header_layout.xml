@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+    <com.bigkoo.convenientbanner.ConvenientBanner
+        android:id="@+id/cb_live_banner"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        tools:background="@drawable/list_error_img"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/platform_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_10"
+        android:background="@color/white" />
+
+    <View
+      style="@style/item_line_mode"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSize_ml"
+        android:textColor="@color/text_color_333333"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_tiny"
+        android:layout_marginBottom="@dimen/margin_tiny"
+        android:text="这些大戏等你开启!"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/margin_10"
+        android:paddingRight="@dimen/margin_10" />
+
+</LinearLayout>

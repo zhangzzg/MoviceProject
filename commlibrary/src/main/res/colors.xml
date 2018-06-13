@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#28a0dc</color>
+    <color name="colorPrimaryDark">#1D6182</color>
+    <color name="colorAccent">#148cc8</color>
+
+    <color name="home_title_color">#1673AF</color>
+    <color name="pts_color">#44B1E8</color>
+
+    <!--公共-->
+    <color name="white">#fff</color>
+    <color name="common_background">#F7F8F9</color>
+    <color name="divide_line">#dddddd</color>
+    <color name="grey1">#999999</color>
+    <color name="black1">#4D4D4D</color>
+    <color name="black">#000</color>
+
+    <!--灰色小标题颜色-->
+    <color name="sub_title_color">#5F6667</color>
+
+    <!--我的-->
+    <color name="mine_bg">#F1FCFE</color>
+    <color name="my_oroder_sub">#ABABAB</color>
+    
+    <!--支付-->
+    <color name="pay_finish">#34C84A</color>
+    <color name="pay_failure">#FC615D</color>
+
+
+</resources>

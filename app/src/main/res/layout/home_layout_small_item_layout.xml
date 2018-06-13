@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?selectableItemBackground"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="@dimen/margin_tiny"
+        android:layout_marginLeft="@dimen/margin_tiny"
+        android:layout_marginRight="@dimen/margin_tiny"
+        android:src="@drawable/default_image_banner"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_333333"
+        android:layout_margin="@dimen/margin_tiny"
+        android:textSize="@dimen/textSize_m"
+        android:maxLines="1"
+        android:ellipsize="end"
+        tools:text="精钢狼"/>
+    <TextView
+        android:id="@+id/descrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_666"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_marginLeft="@dimen/margin_tiny"
+        android:layout_marginBottom="@dimen/margin_tiny"
+        android:layout_marginRight="@dimen/margin_tiny"
+        android:textSize="@dimen/textSize_s"
+        tools:text="英寸精心策划的输局"/>
+</LinearLayout>

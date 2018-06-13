@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_item_bookname_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/iv_doc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:button="@drawable/select_choose_bg"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/iv_doc"
+        android:layout_margin="@dimen/margin_10"
+        android:scaleType="fitXY"
+        android:src="@drawable/error_image" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_pic"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_alignTop="@+id/iv_pic"
+        android:maxLines="1"
+        android:text="飞向太空"
+        android:textColor="@color/text_color_333333"
+        android:textSize="@dimen/textSize_m" />
+    <TextView
+        android:id="@+id/iv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_pic"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginTop="@dimen/margin_10"
+        android:text="上次观看到35分18秒"
+        android:layout_marginRight="@dimen/margin_10"
+        android:textColor="@color/text_color_999"
+        android:textSize="@dimen/textSize_m" />
+  <View
+      android:layout_alignParentBottom="true"
+      style="@style/item_line"/>
+</RelativeLayout>

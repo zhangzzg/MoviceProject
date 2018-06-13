@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context="com.zhangwan.movieproject.app.ui.find.SearchActivity">
+    <TextView
+        android:id="@+id/rcent_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_10"
+        android:textSize="@dimen/textSize_m"
+        android:textColor="@color/text_color_999"
+        android:text="最近搜索"/>
+    <View
+        android:id="@+id/line"
+        style="@style/item_line"/>
+    <com.gxtc.commlibrary.recyclerview.RecyclerView
+        android:id="@+id/history_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/clear_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_10"
+        android:textSize="@dimen/textSize_m"
+        android:layout_gravity="center"
+        android:textColor="@color/pts_color"
+        android:background="?selectableItemBackground"
+        android:text="清空搜索记录"/>
+</LinearLayout>

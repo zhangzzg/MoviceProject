@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:id="@+id/iv_news_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="@dimen/margin_10"
+            android:paddingRight="@dimen/margin_10"
+            android:background="?selectableItemBackground"
+            android:src="@drawable/news_icon_search" />
+
+
+        <com.zhangwan.movieproject.app.widget.MPagerSlidingTabStrip
+            android:id="@+id/pss_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_tiny"
+            android:layout_toLeftOf="@+id/iv_news_search"
+            app:pstsDividerColor="#00ffffff"
+            app:pstsIndicatorColor="@color/colorAccent"
+            app:pstsIndicatorHeight="2dp"
+            app:pstsTabPaddingLeftRight="8dp"
+            app:pstsTabSelectedTextColor="@color/colorAccent"
+            app:pstsTabSelectedTextSize="@dimen/textSize_ml"
+            app:pstsTabTextColor="#333"
+            app:pstsTabTextSize="@dimen/textSize_ml"
+            app:pstsUnderlineHeight="0dp" />
+
+    </RelativeLayout>
+
+
+    <View style="@style/item_line" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

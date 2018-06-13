@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">最捷视界</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing emailcompletions."</string>
+
+    <!--登录注册-->
+    <string name="count_canot_empty" translatable="false">手机号不能为空</string>
+    <string name="pwd_canot_empty">密码不能为空</string>
+    <string name="yzm_canot_empty">验证码不能为空</string>
+    <string name="incorrect_phone_format">手机格式不正确</string>
+    <string name="incorrect_account_format">账号格式不正确</string>
+    <string name="incorrect_password_format">密码格式不正确</string>
+    <string name="login_success">登录成功</string>
+    <string name="register_success">注册成功</string>
+    <string name="verification_code_send">验证码已发送</string>
+    <string name="topic_detail_record_hint">录满60s秒后将自动发送，并启动下一条录音</string>
+    <string name="topic_detail_record_next">发送后即可录制下一条</string>
+    <string name="topic_detail_record_long_out">松开手指，取消发送</string>
+    <string name="topic_detail_record_long_in">手指滑出此区域，取消发送</string>
+    <string name="label_input_phone">请输入手机号</string>
+    <string name="label_input_psw">请输入新密码</string>
+    <string name="label_input_yzm">请输入验证码</string>
+    <string name="label_get_yzm">输入验证码</string>
+    <string name="label_find_back_login">获取验证码</string>
+    <string name="label_bind">绑定</string>
+    <string name="login_err_accout">帐号或密码错误</string>
+    <string name="login_emp_accout">帐号不能为空</string>
+    <string name="login_emp_password">密码不能为空</string>
+    <string name="toast_password_length">请输入至少6位数密码</string>
+    <!--我的-->
+    <string name="text_content">新媒体之家(www.xinmei6.com)旗下实用技能学习平台。与优秀大咖、专业机构、企业合作，为您提供海量优质课程，以及创新的在线学习体验，帮助您获得全新的个人发展和能力提升。</string>
+    <string name="contact">微信号：964033012 ， 邮箱：hc@xinmei6.com.</string>
+    <string name="location">公司：南宁市新媒之家文化传媒有限公司 ， Nanning new media home culture media Co., Ltd..</string>
+
+</resources>

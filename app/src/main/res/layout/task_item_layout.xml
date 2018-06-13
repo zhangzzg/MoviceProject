@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+  <TextView
+      android:id="@+id/task_note"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/margin_10"
+      android:text="新手任务"/>
+    <TextView
+        android:id="@+id/task_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/margin_10"
+        android:paddingBottom="@dimen/margin_10"
+        android:layout_below="@+id/task_note"
+        android:text="邀请好友注册登录"/>
+
+    <TextView
+        android:id="@+id/do_it"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="@dimen/margin_10"
+        android:paddingRight="@dimen/margin_10"
+        android:paddingTop="@dimen/margin_tiny"
+        android:paddingBottom="@dimen/margin_tiny"
+        android:layout_marginRight="@dimen/margin_10"
+        android:background="@drawable/btn_yellow_selector"
+        android:textColor="@color/white"
+        android:text="去完成"/>
+  <View
+      android:layout_alignParentBottom="true"
+      style="@style/item_line"/>
+</RelativeLayout>

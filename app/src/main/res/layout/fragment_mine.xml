@@ -1,0 +1,185 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context="com.zhangwan.movieproject.app.ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/header_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_title_color">
+
+                <com.gxtc.commlibrary.widget.CircleImageView
+                    android:id="@+id/head_pic"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="@dimen/margin_10"
+                    android:src="@drawable/default_avatar" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/head_pic"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_toRightOf="@+id/head_pic"
+                    android:text="东风破"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSize_m" />
+
+                <TextView
+                    android:id="@+id/vip_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name"
+                    android:layout_toRightOf="@+id/head_pic"
+                    android:text="vip:开通vip"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSize_s" />
+
+                <TextView
+                    android:id="@+id/vip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/vip_status"
+                    android:layout_toRightOf="@+id/head_pic"
+                    android:text="vip:开通vip:2026年到期"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSize_s" />
+
+                <TextView
+                    android:id="@+id/task"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/name"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:background="@drawable/select_task_bg"
+                    android:paddingBottom="@dimen/margin_tiny"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:paddingRight="@dimen/margin_10"
+                    android:paddingTop="@dimen/margin_tiny"
+                    android:text="做任务领vip"
+                    android:textColor="@color/text_color_999"
+                    android:textSize="@dimen/textSize_s" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/vip_code"
+                    style="@style/mine_tab"
+                    android:drawableTop="@drawable/duihuan"
+                    android:text="vip兑换码" />
+
+                <TextView
+                    android:id="@+id/history"
+                    style="@style/mine_tab"
+                    android:drawableTop="@drawable/jil"
+                    android:text="观看记录" />
+
+                <TextView
+                    android:id="@+id/sign"
+                    style="@style/mine_tab"
+                    android:visibility="gone"
+                    android:drawableTop="@drawable/qiandao"
+                    android:text="签到有礼" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/margin_10"
+                android:paddingRight="@dimen/margin_10">
+
+                <TextView
+                    android:id="@+id/coustomer"
+                    style="@style/mine_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/kefu"
+                    android:text="在线客服" />
+
+                <View style="@style/item_line" />
+
+                <TextView
+                    android:id="@+id/question"
+                    style="@style/mine_item"
+                    android:drawableLeft="@drawable/wenti"
+                    android:text="常见问题" />
+
+                <View style="@style/item_line" />
+
+                <TextView
+                    android:id="@+id/about"
+                    style="@style/mine_item"
+                    android:drawableLeft="@drawable/guanyu"
+                    android:text="关于我们" />
+
+                <View style="@style/item_line" />
+
+                <TextView
+                    android:id="@+id/update"
+                    style="@style/mine_item"
+                    android:drawableLeft="@drawable/gengxin"
+                    android:text="检测更新" />
+
+                <View style="@style/item_line_mode" />
+                <RelativeLayout
+                    android:id="@+id/clear_cache_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        style="@style/clear_cache"
+                        android:drawableLeft="@drawable/huancun"
+                        android:text="清空缓存" />
+                    <TextView
+                        android:id="@+id/clear_cache"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:drawableRight="@drawable/more"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:drawablePadding="@dimen/margin_10"
+                        android:text="80k" />
+
+                </RelativeLayout>
+
+                <View style="@style/item_line" />
+
+                <TextView
+                    android:id="@+id/setting"
+                    style="@style/mine_item"
+                    android:drawableLeft="@drawable/shezhi"
+                    android:text="设置" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

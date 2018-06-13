@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CommLibrary</string>
+
+    <!--公共-->
+    <string name="empty_net_error">暂时没有网络,请稍后重试</string>
+    <string name="title_activity_found_password">FoundPasswordActivity</string>
+    <string name="token_overdue">登录验证已过期，请重新登录</string>
+
+
+
+</resources>
