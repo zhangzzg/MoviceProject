@@ -59,6 +59,7 @@ public class FindItemkFragment extends BaseLazyFragment implements FindContract.
     protected void onGetBundle(Bundle bundle) {
         super.onGetBundle(bundle);
         chanelId = bundle.getString("id");
+
     }
 
 
